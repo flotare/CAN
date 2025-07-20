@@ -1,2 +1,43 @@
-__pycache__/\n.venv/\n*.pyc
-.venv
+# Environnement virtuel
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Fichiers de test
+.coverage
+.tox/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# VSCode / autres éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac / Linux / Windows artefacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Config temporaire ou sensible
+.env
+.env.*
+*.bak
+*.swp

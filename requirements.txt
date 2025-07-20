@@ -1,2 +1,4 @@
-# Manipulation des donnees
-numpy
+streamlit==1.45.1
+pandas==2.3.0
+scikit-learn==1.7.0
+pydantic==2.11.7
