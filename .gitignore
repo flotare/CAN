@@ -17,6 +17,7 @@ nosetests.xml
 coverage.xml
 *.cover
 .pytest_cache/
+local.ipynb
 
 # VSCode / autres éditeurs
 .vscode/
